@@ -1,6 +1,6 @@
 import './App.css';
 import { AuthContextProvider } from "./contexts/AuthContext";
-import { ToastContainer, toast } from 'c';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import eventBus from "./helpers/Eventbus";
 import Navigation from './Navigation';
